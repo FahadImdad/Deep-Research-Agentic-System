@@ -1,0 +1,20 @@
+[project]
+name = "deep-research-agent-system"
+version = "0.1.0"
+description = "A professional-grade multi-agent research system using OpenAI Agents SDK"
+requires-python = ">=3.10"
+dependencies = [
+    "openai-agents>=0.1.0",
+    "openai>=1.0.0",
+    "python-dotenv>=1.0.0",
+    "tavily-python>=0.3.0",
+    "chainlit>=1.0.0",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.21.0",
+    "black>=23.0.0",
+    "flake8>=6.0.0",
+]
